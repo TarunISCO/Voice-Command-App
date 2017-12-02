@@ -1,0 +1,90 @@
+Language model created by QuickLM on Thu Nov 30 09:29:02 EST 2017
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 11 sentences and 18 words
+
+\data\
+ngram 1=18
+ngram 2=27
+ngram 3=22
+
+\1-grams:
+-0.9031 </s> -0.3010
+-0.9031 <s> -0.2430
+-1.9445 BLOG -0.2430
+-1.9445 BROWSER -0.2430
+-1.9445 FILE -0.2961
+-1.9445 GIT -0.2961
+-1.9445 HUB -0.2430
+-1.9445 IN -0.2430
+-1.9445 LINKED -0.2961
+-1.9445 MAIL -0.2430
+-1.9445 MANAGER -0.2430
+-1.9445 NEW -0.2961
+-1.0994 OPEN -0.2650
+-1.9445 PAPER -0.2430
+-1.9445 PRESENTATION -0.2430
+-1.9445 SEARCH -0.2430
+-1.9445 TAB -0.2430
+-1.9445 TERMINAL -0.2430
+
+\2-grams:
+-1.3424 <s> BROWSER 0.0000
+-1.3424 <s> FILE 0.0000
+-1.3424 <s> NEW 0.0000
+-0.4973 <s> OPEN -0.0000
+-1.3424 <s> TERMINAL 0.0000
+-0.3010 BLOG </s> -0.3010
+-0.3010 BROWSER </s> -0.3010
+-0.3010 FILE MANAGER 0.0000
+-0.3010 GIT HUB 0.0000
+-0.3010 HUB </s> -0.3010
+-0.3010 IN </s> -0.3010
+-0.3010 LINKED IN 0.0000
+-0.3010 MAIL </s> -0.3010
+-0.3010 MANAGER </s> -0.3010
+-0.3010 NEW TAB 0.0000
+-1.1461 OPEN BLOG 0.0000
+-1.1461 OPEN GIT 0.0000
+-1.1461 OPEN LINKED 0.0000
+-1.1461 OPEN MAIL 0.0000
+-1.1461 OPEN PAPER 0.0000
+-1.1461 OPEN PRESENTATION 0.0000
+-1.1461 OPEN SEARCH 0.0000
+-0.3010 PAPER </s> -0.3010
+-0.3010 PRESENTATION </s> -0.3010
+-0.3010 SEARCH </s> -0.3010
+-0.3010 TAB </s> -0.3010
+-0.3010 TERMINAL </s> -0.3010
+
+\3-grams:
+-0.3010 <s> BROWSER </s>
+-0.3010 <s> FILE MANAGER
+-0.3010 <s> NEW TAB
+-1.1461 <s> OPEN BLOG
+-1.1461 <s> OPEN GIT
+-1.1461 <s> OPEN LINKED
+-1.1461 <s> OPEN MAIL
+-1.1461 <s> OPEN PAPER
+-1.1461 <s> OPEN PRESENTATION
+-1.1461 <s> OPEN SEARCH
+-0.3010 <s> TERMINAL </s>
+-0.3010 FILE MANAGER </s>
+-0.3010 GIT HUB </s>
+-0.3010 LINKED IN </s>
+-0.3010 NEW TAB </s>
+-0.3010 OPEN BLOG </s>
+-0.3010 OPEN GIT HUB
+-0.3010 OPEN LINKED IN
+-0.3010 OPEN MAIL </s>
+-0.3010 OPEN PAPER </s>
+-0.3010 OPEN PRESENTATION </s>
+-0.3010 OPEN SEARCH </s>
+
+\end\
